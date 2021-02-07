@@ -1,5 +1,4 @@
 from vkbottle.bot import Bot, Message
-from itertools import cycle
 from typing import Optional
 
 
