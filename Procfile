@@ -1,1 +1,1 @@
-web: vijener.py
+worker: python3 vijener.py
