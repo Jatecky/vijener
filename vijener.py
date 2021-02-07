@@ -1,3 +1,4 @@
+#!/bin/env python3
 from vkbottle.bot import Bot, Message
 from typing import Optional
 
