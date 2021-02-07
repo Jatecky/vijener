@@ -1,2 +1,2 @@
-vkbottle
+git+git://github.com/timoniq/vkbottle.git
 typing
