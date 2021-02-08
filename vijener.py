@@ -44,14 +44,14 @@ def decrypt(key, text):
 @bot.on.message(text="шифр <key> <text>")
 async def handler(message: Message, key: Optional[str] = None, text: Optional[str] = None) -> str:
         if encrypt(key, text) == "Err":
-            return "разрешенно использование только букв"
+            return "разрешенно использование только букв(lower)"
         else:
             return f"Ваш зашифрованный текcт: {encrypt(key, text)}"
     
 @bot.on.message(text="дешифр <key> <text>")
 async def handler(message: Message, key: Optional[str] = None, text: Optional[str] = None) -> str:
     if decrypt(key, text) == "Err":
-        return "разрешенно использование только букв"
+        return "разрешенно использование только букв(lower)"
     else:
         return f"Ваш зашифрованный текcт: {decrypt(key, text)}"
 
