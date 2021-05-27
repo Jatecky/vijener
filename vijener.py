@@ -3,7 +3,7 @@ from vkbottle.bot import Bot, Message
 from typing import Optional
 
 
-bot = Bot("7f12ba6623387c37c610fe178f282436daab6e78445e5152f2cdb16626e286fee8999525ce36fba8fde2d")
+bot = Bot("")
 
 alp = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя"
 
